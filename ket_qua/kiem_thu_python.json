@@ -1,0 +1,184 @@
+{
+ "thoi_diem": "09/10/2026 12:49",
+ "python": "3.12.3",
+ "he_dieu_hanh": "Windows-11-10.0.26200-SP0",
+ "dat": 35,
+ "khong_dat": 0,
+ "chi_tiet": [
+  {
+   "test": "test_he_va_mo_rong.py::test_dau_vao_sai_bi_tu_choi_dong_bo_voi_matlab",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_mo_hinh_bo_sung",
+   "dat": true,
+   "giay": 0.02
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_nang_luong_dao_dong_euler_va_rk4",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_phan_loai_2x2",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_vd46_tri_rieng_phuc_va_dieu_kien_dau",
+   "dat": true,
+   "giay": 0.02
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_vd47_jordan_khong_cheo_hoa_duoc",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_vd48_vd49_vd50_nghiem_rieng_va_khu_bien",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_he_va_mo_rong.py::test_vd51_rk4_euler_cho_he",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_bac_hoi_tu",
+   "dat": true,
+   "giay": 0.02
+  },
+  {
+   "test": "test_khoa_hoc.py::test_ca_moi_bang_hieu_S",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khoa_hoc.py::test_du_lieu_va_nhan_dien_K",
+   "dat": true,
+   "giay": 1.76
+  },
+  {
+   "test": "test_khoa_hoc.py::test_hieu_chinh_beta",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khoa_hoc.py::test_khai_thac_ba_truong_hop",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khoa_hoc.py::test_logistic_nghiem_thoa_phuong_trinh",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_luoi_khong_lam_tron",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_malthus_chinh_xac_va_gap_doi",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_newton_bao_loi_khi_khong_hoi_tu",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_nguong_mien_dich_khong_am",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_phuong_phap_an_va_he_so_khuech_dai",
+   "dat": true,
+   "giay": 0.0
+  },
+  {
+   "test": "test_khoa_hoc.py::test_sir_bao_toan_va_khong_am_tham_chieu",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khoa_hoc.py::test_sir_dinh_va_quy_mo_cuoi",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khop_van_ban.py::test_khong_con_luan_van_va_ghi_chu_noi_bo",
+   "dat": true,
+   "giay": 0.02
+  },
+  {
+   "test": "test_khop_van_ban.py::test_khong_con_tham_chieu_ma_cu",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khop_van_ban.py::test_main_dung_cau_truc_nam_chuong",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_khop_van_ban.py::test_so_lieu_trong_van_ban_khop_tinh_toan",
+   "dat": true,
+   "giay": 0.02
+  },
+  {
+   "test": "test_ung_dung.py::test_app_dieu_huong_chay_khong_loi",
+   "dat": true,
+   "giay": 0.05
+  },
+  {
+   "test": "test_ung_dung.py::test_bai_4_ma_tran_suy_bien_bao_loi_ro_rang",
+   "dat": true,
+   "giay": 25.09
+  },
+  {
+   "test": "test_ung_dung.py::test_bai_tap_co_dap_an_hop_le",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_ung_dung.py::test_cham_bai_tap_so",
+   "dat": true,
+   "giay": 0.23
+  },
+  {
+   "test": "test_ung_dung.py::test_khai_thac_tuyet_chung_dung_mo_phong",
+   "dat": true,
+   "giay": 1.18
+  },
+  {
+   "test": "test_ung_dung.py::test_kiem_tra_csv_tai_len",
+   "dat": true,
+   "giay": 0.01
+  },
+  {
+   "test": "test_ung_dung.py::test_moi_trang_chay_khong_loi",
+   "dat": true,
+   "giay": 8.14
+  },
+  {
+   "test": "test_ung_dung.py::test_sir_tong_dan_so_sai_bao_loi",
+   "dat": true,
+   "giay": 0.86
+  },
+  {
+   "test": "test_ung_dung.py::test_so_sanh_sir_buoc_lon_bao_that_bai",
+   "dat": true,
+   "giay": 0.7
+  },
+  {
+   "test": "test_ung_dung.py::test_trang_video_co_du_lieu_va_khong_loi",
+   "dat": true,
+   "giay": 0.05
+  }
+ ]
+}

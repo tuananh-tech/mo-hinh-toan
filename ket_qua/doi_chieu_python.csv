@@ -1,0 +1,32 @@
+ten,gia_tri,dung_sai,kieu,mo_ta
+logistic_euler_P10_h025,498.99970150921604,1e-09,tuong_doi,"logistic r=0.55 K=665 P0=9.6, euler, h=0.25"
+logistic_heun_P10_h025,518.8640830554177,1e-09,tuong_doi,"logistic r=0.55 K=665 P0=9.6, heun, h=0.25"
+logistic_diem_giua_P10_h025,519.2610073957023,1e-09,tuong_doi,"logistic r=0.55 K=665 P0=9.6, diem_giua, h=0.25"
+logistic_rk4_P10_h025,519.9337436491022,1e-09,tuong_doi,"logistic r=0.55 K=665 P0=9.6, rk4, h=0.25"
+logistic_chinh_xac_P10,519.9344869189719,1e-12,tuong_doi,nghiem dung tai t=10
+sir_rk4_S24_h05,129.25861074941588,1e-09,tuong_doi,"SIR RK4 h=0.5, S(24)"
+sir_rk4_maxI_h05,211.8227703622221,1e-09,tuong_doi,"SIR RK4 h=0.5, max I tren luoi"
+sir_euler_maxI_h1,250.60438849824897,1e-09,tuong_doi,"SIR Euler h=1, max I tren luoi (= bang Giordano)"
+sir_euler_minI_h2_T30,-12.11396423235783,1e-09,tuong_doi,"Euler h=2 tren [0,30]: min I am"
+sir_Imax_giai_tich,212.2503794990625,1e-12,tuong_doi,cong thuc dinh dich
+sir_S_inf,129.08054977979882,1e-09,tuong_doi,nghiem phuong trinh quy mo cuoi
+sir_t_dinh_ode,6.848469944162159,1e-06,tuong_doi,thoi diem dinh tu bo giai thich nghi (DOP853 vs ode45)
+sir_beta_lien_tuc,1.1981565536503456,1e-07,tuong_doi,hieu chinh beta de I(1)=9 (Brent+DOP853 vs fzero+ode45)
+sir_beta_euler,1.407035175879397,1e-12,tuong_doi,beta tu mot buoc Euler
+seir_Imax,131.012051505008,1e-05,tuong_doi,"SEIR sigma=1/tuan, dinh I"
+he_rk4_x1,1.3200666666666667,1e-12,tuong_doi,"RK4 mot buoc x'=x-4y, y'=-x+y, h=0.2"
+he_rk4_y1,-0.2506666666666667,1e-12,tuong_doi,"RK4 mot buoc, y1"
+he_expm_x,1.3204247767342454,1e-12,tuong_doi,"expm(0.2 A) y0, x"
+he_expm_y,-0.2508470118281318,1e-12,tuong_doi,"expm(0.2 A) y0, y"
+hsbd_b1,-2.7499999999999996,1e-12,tuong_doi,"he so bat dinh, b1 = -11/4"
+hsbd_b2,2.8749999999999996,1e-12,tuong_doi,"he so bat dinh, b2 = 23/8"
+nam_men_hoi_quy_r,0.5306746627219532,1e-10,tuong_doi,hoi quy ln(P/(665-P)) theo t
+nam_men_nls_r,0.5469947276674862,0.0005,tuong_doi,NLS (least_squares vs fminsearch)
+nam_men_nls_K,663.0219906537869,0.0005,tuong_doi,NLS (least_squares vs fminsearch)
+khai_thac_t_tuyet_chung,18.608879752739053,1e-07,tuong_doi,"H=150>rK/4, P0=800: thoi diem P=0"
+dao_dong_euler_E10,101.00989636853888,1e-09,tuong_doi,nang luong Euler h=0.1 tai t=10 (tang)
+dao_dong_rk4_E10,1.9998231188550848,1e-09,tuong_doi,nang luong RK4 h=0.1 tai t=10
+lotka_rk4_V20,0.46027922270473587,1e-09,tuong_doi,bat bien V sau RK4
+thuoc_R_gioi_han,0.431012760693333,1e-12,tuong_doi,"C0=1, k=0.2, T=6"
+thuoc_T_chu_ky,8.047189562170502,1e-12,tuong_doi,"H=10, L=2, k=0.2"
+phanh_quang_duong,40.0,1e-12,tuong_doi,"v0=20 m/s, k=5 m/s^2"

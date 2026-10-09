@@ -1,0 +1,326 @@
+{
+ "VD01": {
+  "tieu_de": "Đổi đơn vị của tốc độ tăng trưởng riêng",
+  "muc": "Giải tích trong bối cảnh mô hình hóa",
+  "tom_tat": "**Mục tiêu.** Phân biệt tốc độ tăng trưởng riêng liên tục $r$ với tỉ lệ tăng theo chu kỳ; đổi đơn vị của $r$.\n\n**Lời giải.** (a) Vì $rt$ không thứ nguyên, đổi sang tháng: $r=0{,}24/12=0{,}02\\ \\text{tháng}^{-1}$. (b) Sau một năm, $P(1)/P(0)=e^{0{,}24}\\approx1{,}2712$: quần thể tăng khoảng $27{,}1\\%$, *không phải* $24\\%$. (c) Ngược lại, nếu đề bài cho “tăng $24\\%$ mỗi năm” (tỉ lệ theo chu kỳ) thì $e^{r}=1{,}24$, tức $r=\\ln1{,}24\\approx0{,}2151\\ \\text{năm}^{-1}$.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD02": {
+  "tieu_de": "Từ tốc độ trung bình đến tốc độ tức thời",
+  "muc": "Giải tích trong bối cảnh mô hình hóa",
+  "tom_tat": "**Mục tiêu.** Thấy đạo hàm là giới hạn của tốc độ trung bình, trên dữ liệu thật.\n\n**Lời giải.** Từ dữ liệu: tốc độ trung bình trên $[7,8]$ là $350{,}7-257{,}3=93{,}4$; trên $[8,9]$ là $90{,}3$; trên $[7,9]$ là $91{,}85$. Dữ liệu chỉ có ở các giờ nguyên nên không thể cho $\\Delta t\\to0$. Dùng mô hình, tỉ sai phân $\\frac{P(8+\\Delta t)-P(8)}{\\Delta t}$ bằng $85{,}16$; $87{,}96$; $88{,}07$; $88{,}076$ khi $\\Delta t=1;\\ 0{,}1;\\ 0{,}01;\\ 0{,}001$, tiến tới $P'(8)=rP(8)(1-P(8)/K)\\approx88{,}077$.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD03": {
+  "tieu_de": "Kiểm tra thứ nguyên phát hiện mô hình sai",
+  "muc": "Giải tích trong bối cảnh mô hình hóa",
+  "tom_tat": "**Mục tiêu.** Dùng nguyên tắc (D1) ở Mục (xem đồ án) để loại một mô hình sai dạng.\n\n**Lời giải.** $[P']=\\text{cá thể}/\\text{năm}$, $[r]=\\text{năm}^{-1}$, $[P]=\\text{cá thể}$: vế phải cộng hai đại lượng khác thứ nguyên, vế phải cũng không cùng thứ nguyên với vế trái. Mô hình sai về mặt thứ nguyên, bất kể số liệu. Hai cách sửa có ý nghĩa: $P'=rP$ (sinh–tử tỉ lệ quy mô) hoặc $P'=rP+m$ với $m$ (cá thể/năm) là tốc độ nhập cư không đổi.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD04": {
+  "tieu_de": "Tích phân như sự tích lũy",
+  "muc": "Giải tích trong bối cảnh mô hình hóa",
+  "tom_tat": "**Mục tiêu.** Tính lượng thay đổi tổng cộng từ tốc độ thay đổi; so sánh với tổng Riemann.\n\n**Lời giải.** $\\int_0^{10}120e^{0{,}05t}dt=\\frac{120}{0{,}05}\\bigl(e^{0{,}5}-1\\bigr)=2400\\cdot0{,}64872\\approx1556{,}9$ cá thể. Nếu chỉ biết tốc độ tại đầu mỗi năm, tổng trái $\\sum_{k=0}^{9}120e^{0{,}05k}\\approx1518{,}3$ cá thể.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD05": {
+  "tieu_de": "Xấp xỉ tuyến tính và sai số một bước",
+  "muc": "Giải tích trong bối cảnh mô hình hóa",
+  "tom_tat": "**Mục tiêu.** Thấy sai số của xấp xỉ tuyến tính (xem đồ án) giảm như $(\\Delta t)^2$; chuẩn bị cho phương pháp Euler.\n\n**Lời giải.** $\\Delta t=1$: $1{,}5$ so với $1{,}6487$, sai số tương đối $9{,}02\\%$; $\\Delta t=0{,}1$: $1{,}05$ so với $1{,}051271$, sai số $0{,}121\\%$; $\\Delta t=0{,}01$: sai số $0{,}00125\\%$.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD06": {
+  "tieu_de": "Dân số Hoa Kỳ (thẻ ngắn)",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** Ước lượng $r$ từ hai điểm, dự báo ngắn hạn và nhận ra ngoại suy xa phi lý.\n\n**Kết quả chính.** $r\\approx0{,}0101\\ \\text{năm}^{-1}$, $T_d\\approx68{,}6$ năm, dự báo năm 2000 sai $-2{,}3\\%$, dự báo năm 2300 khoảng $5{,}5$ tỉ người.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD07": {
+  "tieu_de": "Từ tốc độ sinh, tử đến thời gian tăng gấp đôi",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** Vận dụng $r=b-d$ và $T_d=\\ln2/r$.\n\n**Lời giải.** $r=0{,}02\\ \\text{năm}^{-1}$; $T_d=\\ln2/0{,}02\\approx34{,}66$ năm; $P(10)=2\\cdot e^{0{,}2}\\approx2{,}443$ triệu người.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD08": {
+  "tieu_de": "Suy giảm mũ và thời gian bán hủy",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** Áp dụng mô hình Malthus với $r<0$.\n\n**Lời giải.** $k=\\ln2/4\\approx0{,}1733\\ \\text{giờ}^{-1}$. Thời điểm còn $5$ mg/L: $\\ln(20/5)/k=8$ giờ (đúng hai lần bán hủy). Thời điểm còn $1$ mg/L: $\\ln20/k\\approx17{,}29$ giờ.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD09": {
+  "tieu_de": "Ước lượng $r$: hai điểm, hồi quy logarithm, bình phương tối thiểu",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** So sánh ba cách ước lượng $r$ và thấy kết quả phụ thuộc tiêu chí.\n\n**Lời giải.** (a) Hai điểm $t=0$, $t=4$: $r=\\frac14\\ln\\frac{71{,}1}{9{,}6}\\approx0{,}5006\\ \\text{giờ}^{-1}$. (b) Hồi quy $\\ln P$ theo $t$ (xem đồ án): $r\\approx0{,}4952$, $P_0\\approx10{,}39$, $R^2\\approx0{,}9932$ trên thang logarithm. (c) Bình phương tối thiểu trên thang gốc: $r\\approx0{,}4574$, $P_0\\approx11{,}55$.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD10": {
+  "tieu_de": "Malthus ngoài miền hiệu lực (thẻ ngắn)",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** Đánh giá ngoài mẫu, gắn miền hiệu lực với tiêu chí sai số.\n\n**Kết quả chính.** Với tiêu chí $10\\%$, mô hình khớp trên $t\\le4$ chỉ dùng được đến $t=5$.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD11": {
+  "tieu_de": "Từ mô hình rời rạc đến mô hình liên tục",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** Kiểm chứng bằng số giới hạn $(1+r\\Delta t)^{t/\\Delta t}\\to e^{rt}$ (Nhận xét (xem đồ án)).\n\n**Lời giải.** $\\Delta t=1$: $1{,}5^4=5{,}0625$; $\\Delta t=0{,}5$: $1{,}25^8\\approx5{,}9605$; $\\Delta t=0{,}1$: $1{,}05^{40}\\approx7{,}0400$; $\\Delta t=0{,}01$: $\\approx7{,}3523$; giới hạn $e^2\\approx7{,}3891$.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD12": {
+  "tieu_de": "Thời điểm đạt một mức và đổi đơn vị",
+  "muc": "Mô hình Malthus",
+  "tom_tat": "**Mục tiêu.** Giải phương trình mũ có đơn vị.\n\n**Lời giải.** $P(t)=1500\\iff e^{0{,}03t}=3\\iff t=\\ln3/0{,}03\\approx36{,}62$ năm $\\approx439{,}4$ tháng. Theo tháng, $r=0{,}0025\\ \\text{tháng}^{-1}$ và $t=\\ln3/0{,}0025\\approx439{,}4$ tháng — cùng kết quả. $T_d\\approx23{,}10$ năm.",
+  "tep": "data/phu_luc_vi_du/a_giai_tich_malthus.tex"
+ },
+ "VD13": {
+  "tieu_de": "Nghiệm dưới sức chứa: điểm uốn và mức mục tiêu",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Vận dụng (xem đồ án), (xem đồ án) và tốc độ tăng lớn nhất $rK/4$.\n\n**Lời giải.** $t^*=\\frac1{0{,}4}\\ln\\frac{480}{20}=\\frac{\\ln24}{0{,}4}\\approx7{,}945$ năm; tốc độ tăng lớn nhất $rK/4=0{,}4\\cdot500/4=50$ cá thể/năm. Thời điểm đạt $90\\%K=450$: từ $\\frac{P}{K-P}=\\frac{P_0}{K-P_0}e^{rt}$ suy ra $t=\\frac1r\\ln\\frac{450\\cdot480}{20\\cdot50}=\\frac{\\ln216}{0{,}4}\\approx13{,}44$ năm. Ngoài ra $P(5)\\approx117{,}70$ cá thể.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD14": {
+  "tieu_de": "Nghiệm trên sức chứa",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Phân tích trường hợp $P_0>K$, thường bị bỏ qua.\n\n**Lời giải.** Theo Mệnh đề (xem đồ án), $P$ nghịch biến và tiến về $500$; $P(2)\\approx601{,}3$. Từ $\\frac{P}{P-K}=\\frac{P_0}{P_0-K}e^{rt}$, thời điểm $P=550$ là $t=\\frac1{0{,}4}\\ln\\frac{550\\cdot300}{800\\cdot50}=\\frac{\\ln4{,}125}{0{,}4}\\approx3{,}54$ năm. Theo (xem đồ án), khi $P>K$ cả hai thừa số $1-P/K$ và $1-2P/K$ âm, nên $P”>0$: đồ thị lồi, không có điểm uốn.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD15": {
+  "tieu_de": "Ổn định của sức chứa và tuyến tính hóa quanh cân bằng",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Định lượng ý nghĩa của “$K$ ổn định tiệm cận” và độ chính xác của tuyến tính hóa.\n\n**Lời giải.** Nghiệm chính xác cho độ lệch tại $t=1{,}733$ là $23{,}81$ (từ $50$), tỉ số $0{,}476$, so với $0{,}5$ của tuyến tính hóa.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD16": {
+  "tieu_de": "Tuyến tính hóa dữ liệu nấm men (thẻ ngắn)",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Kết quả chính.** $r\\approx0{,}5307\\ \\text{giờ}^{-1}$, $t^*\\approx7{,}85$ giờ, RMSE $4{,}13$ (hồi quy) và $3{,}53$ (phương trình của ); tốc độ tăng lớn nhất $rK/4\\approx88{,}2$ đơn vị/giờ.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD17": {
+  "tieu_de": "Bình phương tối thiểu phi tuyến và độ nhạy theo khởi tạo",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Công khai hàm mục tiêu, ràng buộc, khởi tạo; kiểm tra độ nhạy.\n\n**Lời giải.** Ba khởi tạo $(0{,}5;\\ 794{,}2;\\ 9)$, $(0{,}3;\\ 2000;\\ 12)$, $(1;\\ 700;\\ 7)$ cùng hội tụ về $r=0{,}5470$, $K=663{,}02$, $t^*=7{,}808$; RMSE $3{,}20$; sai số chuẩn xấp xỉ $0{,}0056$; $1{,}70$; $0{,}022$.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD18": {
+  "tieu_de": "Chia dữ liệu theo thời gian (thẻ ngắn)",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Thẩm định ngoài mẫu đúng quy trình; tính nhận diện của $K$.\n\n**Kết quả chính.** $K$ không nhận diện được với $t_c=5$; logistic dự báo tốt hơn Malthus từ $t_c=7$.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD19": {
+  "tieu_de": "Khai thác dưới ngưỡng tới hạn",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Phân tích $P'=rP(1-P/K)-H$ khi $H<rK/4$.\n\n**Lời giải.** Hai điểm cân bằng $P_\\pm=500(1\\pm\\sqrt{1-0{,}8})$: $P_-\\approx276{,}4$ (không ổn định), $P_+\\approx723{,}6$ (ổn định tiệm cận). Từ $P_0=800$: nghiệm tiến về $723{,}6$ ($P(60)\\approx723{,}61$). Từ $P_0=200<P_-$: quần thể suy giảm và chạm $0$ tại $t\\approx4{,}30$ năm (tuyệt chủng); mô phỏng dừng tại sự kiện này.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD20": {
+  "tieu_de": "Khai thác đúng ngưỡng tới hạn",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Xét trường hợp đạo hàm tại cân bằng bằng không.\n\n**Lời giải.** $f_H(P)=-\\frac rK(P-500)^2$. Đặt $u=P-500$: $u'=-\\frac rKu^2$, nên $\\frac1{u(t)}=\\frac1{u_0}+\\frac rKt$. Từ $P_0=600$ ($u_0=100$): $u(200)=1/(0{,}01+0{,}0005\\cdot200)$, $P(200)\\approx509{,}09$ — tiến về $500$ chậm (theo $1/t$). Từ $P_0=400$ ($u_0=-100$): $P=0$ khi $u=-500$, tức $-\\frac1{500}=-\\frac1{100}+0{,}0005\\,t$, $t=16$ năm; mô phỏng số dừng tại $t\\approx16{,}000$.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD21": {
+  "tieu_de": "Khai thác vượt ngưỡng và thời điểm tuyệt chủng",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Tính thời điểm tuyệt chủng bằng giải tích và bằng sự kiện của bộ giải.\n\n**Lời giải.** $f_H(P)=-\\frac rK\\bigl[(P-500)^2+D^2\\bigr]$ với $D^2=\\frac Kr(H-\\frac{rK}4)=50\\,000$, $D\\approx223{,}6$. Tách biến: $t=\\frac{K}{rD}\\Bigl[\\arctan\\frac{800-500}{D}-\\arctan\\frac{0-500}{D}\\Bigr]\\approx18{,}61$ năm. Bộ giải với sự kiện $P=0$ cho $18{,}6089$ năm.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD22": {
+  "tieu_de": "Giải logistic bằng đổi biến $u=1/P$",
+  "muc": "Mô hình logistic",
+  "tom_tat": "**Mục tiêu.** Đối chiếu hai cách giải (Mục (xem đồ án)).\n\n**Lời giải.** $u=1/P$ thỏa (xem đồ án): $u(5)=\\frac1{500}+\\bigl(\\frac1{20}-\\frac1{500}\\bigr)e^{-2}\\approx0{,}0084961$, nên $P(5)=1/u(5)\\approx117{,}70$, trùng với VD13.",
+  "tep": "data/phu_luc_vi_du/b_logistic.tex"
+ },
+ "VD23": {
+  "tieu_de": "Dịch cúm: đặc trưng định tính (thẻ ngắn)",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Kết quả chính.** $\\mathcal R_0=2{,}345$, $\\mathcal R_0S_0/N\\approx2{,}333$; tốc độ tăng ban đầu $0{,}80\\ \\text{tuần}^{-1}$; $S^*\\approx426{,}4$; $I_{\\max}\\approx212{,}25$ tại $t\\approx6{,}85$ tuần; $S_\\infty\\approx129{,}08$; tổng số ca mới $S_0-S_\\infty\\approx865{,}9$.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD24": {
+  "tieu_de": "$\\mathcal R_0>1$ nhưng số người nhiễm không tăng",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Phân biệt $\\mathcal R_0>1$ với điều kiện tăng ban đầu $\\mathcal R_0S_0/N>1$.\n\n**Lời giải.** $\\mathcal R_0=2{,}345>1$ nhưng $\\mathcal R_{\\mathrm{eff}}(0)=2{,}345\\cdot0{,}4=0{,}938<1$. Theo Định lý (xem đồ án)(a), $I$ nghịch biến: $I(1)\\approx4{,}81$, $I(4)\\approx4{,}18$. Phương trình (xem đồ án) cho $S_\\infty\\approx359{,}6$: tổng cộng chỉ khoảng $40{,}4$ ca mới.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD25": {
+  "tieu_de": "Một bộ tham số khác: đỉnh dịch và quy mô cuối",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Áp dụng (xem đồ án), (xem đồ án) và đối chiếu với nghiệm số.\n\n**Lời giải.** $\\mathcal R_0=2{,}5$; $S^*=4000$; $I_{\\max}=10+9990-4000-4000\\ln\\frac{9990}{4000}\\approx2338{,}8$ người; nghiệm tham chiếu đạt đỉnh tại $t\\approx24{,}36$ ngày; $S_\\infty\\approx1072{,}1$; tổng số ca mới khoảng $8918$.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD26": {
+  "tieu_de": "Dạng chuẩn hóa: tỉ lệ và thời gian không thứ nguyên",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Kiểm chứng bằng số nhận xét ở Mục (xem đồ án) về hệ (xem đồ án).\n\n**Lời giải.** Hai cộng đồng có cùng $i_{\\max}\\approx0{,}21225$ tại cùng $t\\approx6{,}848$ tuần. Nhân đôi $\\beta$ và $\\gamma$ (giữ $\\mathcal R_0$): đỉnh đến lúc $t\\approx3{,}424$ tuần, nhưng $\\tau=\\gamma t\\approx4{,}109$ như cũ.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD27": {
+  "tieu_de": "Số đang nhiễm và số ca mới theo tuần",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Phân biệt prevalence $I(t)$ với số ca mới (xem đồ án).\n\n**Lời giải.** Số ca mới trong tuần $k$ là $S(k-1)-S(k)$; bảng sau so sánh với số đang nhiễm cuối tuần. \\begin{center} \\fontsize{11pt}{14pt}\\selectfont \\setlength{\\tabcolsep}{4pt} \\begin{tabular}{lrrrrrrrrrr} \\toprule Tuần & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\\\ \\midrule Ca mới & 10,6 & 22,9 & 46,5 & 85,2 & 129,9 & 153,6 & 138,7 & 101,6 & 66,1 & 41,1\\\\ $I$ cuối tuần & 11,1 & 23,9 & 49,3 & 92,8 & 150,1 & 198,0 & 211,8 & 191,2 & 153,5 & 114,4\\\\ \\bottomrule \\end{tabular} \\end{center}",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD28": {
+  "tieu_de": "Tiêm phòng lý tưởng trước dịch",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Áp dụng (xem đồ án), kể cả trường hợp $\\mathcal R_0\\le1$.\n\n**Lời giải.** $\\mathcal R_0=2{,}345$: $p_c\\approx57{,}4\\%$. $\\mathcal R_0\\approx1{,}997$ (với $\\beta_{\\mathrm C}$): $p_c\\approx49{,}9\\%$. $\\mathcal R_0=0{,}9$: $p_c=\\max\\{0;\\ -0{,}111\\}=0$ — không cần tiêm trước để dịch không bùng phát; con số âm không có ý nghĩa. Kiểm tra với $p=60\\%$ và $\\mathcal R_0=2{,}345$: $S_0=0{,}4\\cdot995=398$, $\\mathcal R_{\\mathrm{eff}}(0)\\approx0{,}933<1$, $I(1)\\approx4{,}79<5$.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD29": {
+  "tieu_de": "Giảm tiếp xúc ngay từ đầu",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Thấy ảnh hưởng của $\\beta$ lên đỉnh và quy mô dịch.\n\n**Lời giải.** $\\mathcal R_0=1{,}407$; $I_{\\max}\\approx50{,}1$ tại $t\\approx14{,}96$ tuần; $S_\\infty\\approx476{,}1$; tổng ca mới khoảng $519$.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD30": {
+  "tieu_de": "Can thiệp tại thời điểm $t_c$: tích phân từng giai đoạn",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** Mô phỏng đúng một can thiệp bắt đầu giữa chừng.\n\n**Lời giải.** $S(5)\\approx699{,}9$, $I(5)\\approx150{,}1$. Sau can thiệp, $\\mathcal R_{\\mathrm{eff}}=1{,}407\\cdot0{,}6999\\approx0{,}985<1$, nên $I$ giảm ngay: đỉnh dịch là $I(5)\\approx150{,}1$ tại $t_c=5$; $S(60)\\approx342{,}9$. Nếu (sai) áp $\\beta=0{,}8442$ cho cả quá khứ, ta lại được kết quả của VD29 (đỉnh $50{,}1$).",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD31": {
+  "tieu_de": "Ước lượng $\\beta$: một bước Euler hay hiệu chỉnh liên tục (thẻ ngắn)",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Kết quả chính.** $\\beta_{\\mathrm E}=1{,}407035$; với $\\beta=1{,}407$ nghiệm liên tục cho $I(1)\\approx11{,}055$; $\\beta_{\\mathrm C}\\approx1{,}19816$, $\\mathcal R_0\\approx1{,}99693$, $I_{\\max}\\approx155{,}4$ tại $t\\approx8{,}53$, $S_\\infty\\approx202{,}3$; Euler bước $1$ với $\\beta_{\\mathrm C}$ cho $I_1\\approx7{,}96$.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD32": {
+  "tieu_de": "SEIR: cùng ngưỡng, khác động học",
+  "muc": "Mô hình SIR",
+  "tom_tat": "**Mục tiêu.** So sánh SIR với mở rộng SEIR.\n\n**Lời giải.** SEIR: $I_{\\max}\\approx131{,}0$ tại $t\\approx13{,}2$ tuần; $S(80)\\approx129{,}08$. SIR: $I_{\\max}\\approx212{,}3$ tại $6{,}85$ tuần; $S_\\infty\\approx129{,}08$.",
+  "tep": "data/phu_luc_vi_du/c_sir.tex"
+ },
+ "VD33": {
+  "tieu_de": "Ba bước Euler tính tay",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** Thực hiện công thức Euler (xem đồ án) bằng tay; tách sai số một bước với sai số toàn cục.\n\n**Kết quả.** $y_1=1+0{,}1\\cdot2=1{,}2$; $y_2=1{,}2+0{,}1\\cdot2{,}2=1{,}42$; $y_3=1{,}42+0{,}1\\cdot2{,}42=1{,}662$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD34": {
+  "tieu_de": "Heun và điểm giữa trên cùng bài toán",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** Áp dụng (xem đồ án) và (xem đồ án); nhận ra khi nào hai phương pháp trùng nhau.\n\n**Kết quả.** Heun, bước đầu: $k_1=f(1)=2$, $k_2=f(1+0{,}1\\cdot2)=2{,}2$, $y_1=1+0{,}05(2+2{,}2)=1{,}21$. Điểm giữa: $y_1=1+0{,}1\\,f(1+0{,}05\\cdot2)=1+0{,}1\\cdot2{,}1=1{,}21$. Tiếp tục: $y_2=1{,}44205$, $y_3=1{,}6984653$ cho cả hai.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD35": {
+  "tieu_de": "Một bước RK4",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** Thực hiện công thức (xem đồ án) và đọc ý nghĩa hình học của bốn hệ số góc.\n\n**Kết quả.** $k_1=0{,}1\\cdot f(1)=0{,}2$; $k_2=0{,}1\\cdot f(1+0{,}1)=0{,}21$; $k_3=0{,}1\\cdot f(1+0{,}105)=0{,}2105$; $k_4=0{,}1\\cdot f(1+0{,}2105)=0{,}22105$; $y_1=1+\\frac16(0{,}2+0{,}42+0{,}421+0{,}22105)\\approx1{,}2103417$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD36": {
+  "tieu_de": "Bậc hội tụ thực nghiệm trên bài toán logistic",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** Đo bậc hội tụ bằng cách giảm bước; đọc bảng sai số.\n\n**Kết quả.** Bảng (xem đồ án). \\begin{center} \\small \\captionof{table}{Sai số tại $t=10$ của bài toán (xem đồ án) và bậc thực nghiệm (tác giả tính toán, `vd_phuong_phap_so.m` và `mhtoan`)} \\begin{tabular}{lcccc|c} \\hline Phương pháp & $h=1$ & $h=0{,}5$ & $h=0{,}25$ & $h=0{,}125$ & bậc tại $h=0{,}125$\\\\ \\hline Euler & $101{,}6$ & $45{,}07$ & $20{,}93$ & $10{,}07$ & $1{,}06$\\\\ Heun & $14{,}59$ & $4{,}04$ & $1{,}07$ & $0{,}276$ & $1{,}95$\\\\ Điểm giữa & $8{,}63$ & $2{,}49$ & $0{,}674$ & $0{,}175$ & $1{,}94$\\\\ RK4 & $0{,}149$ & $1{,}09\\cdot10^{-2}$ & $7{,}43\\cdot10^{-4}$ & $4{,}85\\cdot10^{-5}$ & $3{,}94$\\\\ \\hline \\end{tabular} \\end{center}",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD37": {
+  "tieu_de": "Ổn định tuyệt đối (thẻ ngắn)",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Kết quả chính.** Với $z=h\\lambda=-3$: $Q=-2$ (Euler), $2{,}5$ (Heun, điểm giữa), $1{,}375$ (RK4), $0{,}25$ (Euler ẩn), $-0{,}2$ (hình thang ẩn).",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD38": {
+  "tieu_de": "Bảo toàn không kéo theo không âm",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** Thấy phương pháp Euler cho SIR bảo toàn tổng nhưng có thể cho số người âm.\n\n**Lời giải.** Tính trên khoảng $[0,30]$ tuần. Với $h=0{,}5$ và $h=1$: các thành phần dương. Với $h=2$: $\\min_nI_n\\approx-12{,}1$. Với $h=3$: $\\min_nS_n\\approx-101{,}5$ và $\\min_nI_n\\approx-23{,}3$. Trong mọi trường hợp, $|S_n+I_n+R_n-1000|<10^{-12}$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD39": {
+  "tieu_de": "Taylor bậc hai cho mô hình logistic",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** Áp dụng phương pháp Taylor bậc hai \\begin{equation}y_{n+1}=y_n+hf(t_n,y_n)+\\frac{h^2}2\\bigl(f_t+f_yf\\bigr)(t_n,y_n)\\end{equation} , suy ra từ khai triển Taylor của nghiệm với $y”=f_t+f_yf$.\n\n**Lời giải.** $f(9{,}6)\\approx5{,}2038$; $f_P(9{,}6)\\approx0{,}53412$; $P_1=9{,}6+5{,}2038+\\frac12\\cdot0{,}53412\\cdot5{,}2038\\approx16{,}193$. So sánh: Euler $14{,}804$; Heun $16{,}182$; chính xác $16{,}465$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD40": {
+  "tieu_de": "Đa bước và bài toán cứng",
+  "muc": "Phương pháp số",
+  "tom_tat": "**Mục tiêu.** So sánh chi phí của Adams–Bashforth hai bước với Heun; so sánh bộ giải tường minh và ẩn trên bài toán cứng.\n\n**Lời giải.** (a) Bài toán (xem đồ án), sai số tại $t=10$: $h=0{,}5$: AB2 $2{,}334$ ($21$ lượt tính $f$), Heun $4{,}040$ ($40$ lượt); $h=0{,}25$: $0{,}690$ ($41$) và $1{,}070$ ($80$); $h=0{,}125$: $0{,}186$ ($81$) và $0{,}276$ ($160$). (b) Hệ cứng ở Mục (xem đồ án) trên $[0,10]$, dung sai tương đối $10^{-6}$, tuyệt đối $10^{-9}$: RK45 cần $370$ bước ($2240$ lượt tính vế phải), BDF cần $228$ bước ($482$ lượt), sai số tại $t=10$ lần lượt $1{,}0\\cdot10^{-7}$ và $1{,}5\\cdot10^{-7}$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD41": {
+  "tieu_de": "Làm nguội theo định luật Newton",
+  "muc": "Các mô hình mở rộng",
+  "tom_tat": "**Mục tiêu.** Áp dụng nhân tử tích phân và ước lượng tham số từ một điểm.\n\n**Lời giải.** Theo (xem đồ án): $T(t)=25+65e^{-kt}$. Từ $T(10)=60$: $k=\\frac1{10}\\ln\\frac{65}{35}\\approx0{,}0619\\ \\text{phút}^{-1}$. Thời điểm $T=40$: $t=\\ln(65/15)/k\\approx23{,}7$ phút; $T(30)\\approx35{,}1\\,^\\circ$C.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD42": {
+  "tieu_de": "Chất ô nhiễm trong hồ",
+  "muc": "Các mô hình mở rộng",
+  "tom_tat": "**Mục tiêu.** Áp dụng nguyên lý cân bằng cho bài toán trộn.\n\n**Lời giải.** $Q(t)=Vc_{\\mathrm v}\\bigl(1-e^{-Ft/V}\\bigr)$; $Q^*=5\\cdot10^6$ g $=5$ tấn; thang thời gian $V/F=50$ ngày; đạt $90\\%Q^*$ sau $50\\ln10\\approx115{,}1$ ngày; $Q(30)\\approx2{,}26$ tấn.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD43": {
+  "tieu_de": "Hồ chứa nhận một cơn mưa ngắn",
+  "muc": "Các mô hình mở rộng",
+  "tom_tat": "**Mục tiêu.** Giải mô hình tuyến tính có vế phải thay đổi theo giai đoạn.\n\n**Lời giải.** Trên $[0,3]$: $W(t)=q\\tau(1-e^{-t/\\tau})$, $W(3)\\approx129{,}6$ nghìn m$^3$. Sau đó $W(t)=W(3)e^{-(t-3)/\\tau}$, $W(10)\\approx64{,}4$ nghìn m$^3$. Lưu lượng ra $W/\\tau$ lớn nhất tại $t=3$, khoảng $12{,}96$ nghìn m$^3$/ngày, nhỏ hơn nhiều lưu lượng vào $50$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD44": {
+  "tieu_de": "Dao động tuyến tính, con lắc góc nhỏ và năng lượng",
+  "muc": "Các mô hình mở rộng",
+  "tom_tat": "**Mục tiêu.** Thấy phương pháp số có thể phá vỡ đại lượng bảo toàn.\n\n**Lời giải.** Chính xác: $x(10)=\\cos20\\approx0{,}408$, $E=\\frac12v^2+\\frac12\\omega^2x^2=2$ không đổi. Euler: $x\\approx4{,}47$, $E\\approx101$ (hệ số $(1+h^2\\omega^2)^{T/h}=1{,}04^{100}\\approx50{,}5$); Heun: $x\\approx0{,}290$, $E\\approx2{,}08$; RK4: $x\\approx0{,}4083$, $E\\approx1{,}9998$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD45": {
+  "tieu_de": "Thú săn mồi – con mồi và đại lượng bảo toàn",
+  "muc": "Các mô hình mở rộng",
+  "tom_tat": "**Mục tiêu.** Mở rộng sang tương tác sinh thái .\n\n**Lời giải.** Điểm cân bằng dương $(m/n,a/b)=(3,2)$. Đại lượng $V=nx-m\\ln x+by-a\\ln y$ không đổi dọc nghiệm (tính $V'$ trực tiếp); $V(0)\\approx0{,}46028$. Sau $t=20$ với $h=0{,}05$: Euler cho $V\\approx0{,}724$ (quỹ đạo xoắn ra), RK4 cho $V\\approx0{,}460279$.",
+  "tep": "data/phu_luc_vi_du/d_so_mo_rong.tex"
+ },
+ "VD46": {
+  "tieu_de": "Trị riêng phức: nghiệm thực và tâm",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Mục tiêu.** Từ một cặp trị riêng phức, viết hai nghiệm thực độc lập theo (xem đồ án) và kiểm tra bằng cách thế lại.\n\n**Kết quả.** Điều kiện đầu: $c_1(5;1)+c_2(0;-2)=(1;0)$ cho $c_1=\\tfrac15$, $c_2=\\tfrac1{10}$ (giải hệ $2\\times2$ bằng khử, không nghịch đảo ma trận). Vậy $x=\\cos2t+\\tfrac12\\sin2t$, $y=\\tfrac12\\sin2t$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD47": {
+  "tieu_de": "Trị riêng bội không chéo hóa được: chuỗi Jordan",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Mục tiêu.** Phân biệt bội đại số với bội hình học; dựng nghiệm thứ hai theo (xem đồ án).\n\n**Kết quả.** $\\mathbf y=c_1e^{2t}(1;-1)+c_2e^{2t}\\bigl[t(1;-1)+(1;0)\\bigr]$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD48": {
+  "tieu_de": "Hệ không thuần nhất: hệ số bất định",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Mục tiêu.** Tìm nghiệm riêng dạng đa thức; giải hệ đại số bằng khử Gauss.\n\n**Kết quả.** $\\mathbf a=(3;-2{,}5)$, $\\mathbf b=(-2{,}75;\\,2{,}875)$. Phần thuần nhất: $\\lambda_1=4$, $\\mathbf v_1=(2;3)$; $\\lambda_2=-1$, $\\mathbf v_2=(1;-1)$. Nghiệm tổng quát $\\mathbf x=c_1e^{4t}(2;3)+c_2e^{-t}(1;-1)+t(3;-2{,}5)+(-2{,}75;\\,2{,}875)$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD49": {
+  "tieu_de": "Nghiệm riêng dạng mũ và công thức biến thiên hằng số",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Mục tiêu.** Tìm nghiệm riêng $e^{2t}\\mathbf c$ và đối chiếu với công thức $\\mathbf y(t)=e^{tA}\\mathbf y_0+\\int_0^te^{(t-s)A}\\mathbf g(s)\\,ds$.\n\n**Kết quả.** $c_2=7c_1-6$, thay vào: $-24c_1+24=1$, nên $\\mathbf c=(23/24;\\ 17/24)$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD50": {
+  "tieu_de": "Khử biến đưa hệ về phương trình cấp hai",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Mục tiêu.** Thực hiện phép khử ở Mục (xem đồ án) và kiểm tra bằng thế lại.\n\n**Kết quả.** Nghiệm kép $1$: $x=(c_1+c_2t)e^t$, $y=\\tfrac12(2c_1-c_2+2c_2t)e^t$. Điều kiện đầu: $c_1=1$, $c_2=2$, nên $x=(1+2t)e^t$, $y=2te^t$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD51": {
+  "tieu_de": "Euler và RK4 cho một hệ: so với nghiệm đúng",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Mục tiêu.** Áp dụng công thức một bước cho vectơ; so sánh sai số Euler và RK4 với cùng khoảng thời gian.\n\n**Phương pháp và kết quả.** \\emph{Euler, $h=0{,}1$}: bước 1 $(1;0)+0{,}1(1;-1)=(1{,}1;-0{,}1)$; bước 2 $\\mathbf f=(1{,}5;-1{,}2)$ nên $(1{,}25;-0{,}22)$. \\emph{RK4, $h=0{,}2$}: $\\mathbf K_1=(0{,}2;-0{,}2)$, $\\mathbf K_2=(0{,}3;-0{,}24)$, $\\mathbf K_3=(0{,}326;-0{,}254)$, $\\mathbf K_4=(0{,}4684;-0{,}316)$, cho $(1{,}3200667;-0{,}2506667)$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD52": {
+  "tieu_de": "Liều lặp lại: nồng độ dư (minh họa toán học)",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Kết quả.** $e^{-1{,}2}\\approx0{,}30119$: $R_5\\approx0{,}4299$, $R\\approx0{,}4310$. Nếu muốn nồng độ ở trạng thái ổn định dao động giữa $L=2$ và $H=10$: $C_0=H-L=8$, $T=\\ln(H/L)/k=\\ln5/0{,}2\\approx8{,}05$ giờ.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD53": {
+  "tieu_de": "Quãng đường phanh và miền áp dụng của công thức",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Kết quả.** $t_s=v_0/k=4$ s; $d=v_0^2/(2k)=40$ m. Với $t=5$ s: xe đã dừng, $v=0$; công thức $v_0-kt=-5$ m/s *không* áp dụng ngoài $[0,t_s]$.",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ },
+ "VD54": {
+  "tieu_de": "Hai loài cạnh tranh: điểm yên ngựa và đường phân cách",
+  "muc": "Hệ phương trình vi phân tuyến tính và mô hình bổ sung",
+  "tom_tat": "**Kết quả.** Với bốn trạng thái đầu, giải bằng `ode45` trong MATLAB và dừng khi một biến vượt $3{,}2$: $(0{,}4;0{,}3)\\to x$ lấn át; $(2{,}2;0{,}4)\\to x$ lấn át; $(0{,}3;2{,}0)\\to y$ lấn át; $(2{,}0;2{,}4)\\to y$ lấn át. Hai phía của đường phân cách cho hai kết cục khác nhau (Hình (xem đồ án)).",
+  "tep": "data/phu_luc_vi_du/e_he_tuyen_tinh.tex"
+ }
+}

@@ -1,0 +1,460 @@
+{
+ "thoi_diem": "09/10/2026 01:20",
+ "trinh_duyet": "Chrome/154.0.8037.98",
+ "url": "http://localhost:8599",
+ "so_trang": 24,
+ "so_trang_dat": 24,
+ "so_hop_thoai_khong_thay_trang": 0,
+ "chi_tiet": [
+  {
+   "trang": "trang_chu",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Mô hình toán học cho một số hiện tượng tự nhiên",
+   "chay_xong": true,
+   "giay": 5.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_trang_chu.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_1",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Bài 1. Tăng trưởng không giới hạn: mô hình Malthus",
+   "chay_xong": true,
+   "giay": 7.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_1/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_1/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_bai_1.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_2",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Bài 2. Tăng trưởng có giới hạn: mô hình logistic",
+   "chay_xong": true,
+   "giay": 6.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_2/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_2/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_bai_2.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_3",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Bài 3. Lan truyền dịch bệnh: mô hình SIR",
+   "chay_xong": true,
+   "giay": 6.9,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_3/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_3/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_bai_3.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_4",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Bài 4 (mở rộng). Hệ phương trình vi phân và mặt phẳng pha",
+   "chay_xong": true,
+   "giay": 11.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_4/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_4/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_bai_4.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "cong_cu_so",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Công cụ: so sánh phương pháp số và sai số",
+   "chay_xong": true,
+   "giay": 5.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_so/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_so/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_cong_cu_so.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "cong_cu_khop",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Công cụ: khớp mô hình với dữ liệu",
+   "chay_xong": true,
+   "giay": 5.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_khop/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_khop/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_cong_cu_khop.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "cong_cu_can_thiep",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Công cụ: can thiệp theo thời điểm và mô hình SEIR",
+   "chay_xong": true,
+   "giay": 5.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_can_thiep/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_can_thiep/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_cong_cu_can_thiep.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "video",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Video hoạt hình (Manim) và câu hỏi dừng",
+   "chay_xong": true,
+   "giay": 5.9,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/video/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/video/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_video.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_tap",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Ngân hàng bài tập",
+   "chay_xong": true,
+   "giay": 6.0,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_tap/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_tap/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_bai_tap.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "tai_xuong",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Tải xuống",
+   "chay_xong": true,
+   "giay": 5.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/tai_xuong/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/tai_xuong/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_tai_xuong.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "giang_vien",
+   "co_man_hinh": "may_tinh",
+   "tieu_de": "Giảng viên: hướng dẫn, nguồn và trạng thái kiểm chứng",
+   "chay_xong": true,
+   "giay": 5.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/giang_vien/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/giang_vien/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "may_tinh_giang_vien.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "trang_chu",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Mô hình toán học cho một số hiện tượng tự nhiên",
+   "chay_xong": true,
+   "giay": 5.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_trang_chu.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_1",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Bài 1. Tăng trưởng không giới hạn: mô hình Malthus",
+   "chay_xong": true,
+   "giay": 6.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_1/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_1/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_bai_1.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_2",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Bài 2. Tăng trưởng có giới hạn: mô hình logistic",
+   "chay_xong": true,
+   "giay": 7.4,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_2/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_2/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_bai_2.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_3",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Bài 3. Lan truyền dịch bệnh: mô hình SIR",
+   "chay_xong": true,
+   "giay": 6.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_3/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_3/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_bai_3.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_4",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Bài 4 (mở rộng). Hệ phương trình vi phân và mặt phẳng pha",
+   "chay_xong": true,
+   "giay": 11.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_4/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_4/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_bai_4.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "cong_cu_so",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Công cụ: so sánh phương pháp số và sai số",
+   "chay_xong": true,
+   "giay": 5.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_so/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_so/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_cong_cu_so.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "cong_cu_khop",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Công cụ: khớp mô hình với dữ liệu",
+   "chay_xong": true,
+   "giay": 5.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_khop/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_khop/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_cong_cu_khop.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "cong_cu_can_thiep",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Công cụ: can thiệp theo thời điểm và mô hình SEIR",
+   "chay_xong": true,
+   "giay": 5.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_can_thiep/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/cong_cu_can_thiep/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_cong_cu_can_thiep.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "video",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Video hoạt hình (Manim) và câu hỏi dừng",
+   "chay_xong": true,
+   "giay": 5.9,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/video/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/video/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_video.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "bai_tap",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Ngân hàng bài tập",
+   "chay_xong": true,
+   "giay": 6.2,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_tap/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/bai_tap/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_bai_tap.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "tai_xuong",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Tải xuống",
+   "chay_xong": true,
+   "giay": 5.7,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/tai_xuong/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/tai_xuong/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_tai_xuong.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  },
+  {
+   "trang": "giang_vien",
+   "co_man_hinh": "dien_thoai",
+   "tieu_de": "Giảng viên: hướng dẫn, nguồn và trạng thái kiểm chứng",
+   "chay_xong": true,
+   "giay": 5.6,
+   "so_exception": 0,
+   "exception": [],
+   "thong_bao_loi": [],
+   "loi_console": [],
+   "loi_console_bo_qua": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/giang_vien/_stcore/health",
+    "Failed to load resource: the server responded with a status of 404 (Not Found) http://localhost:8599/giang_vien/_stcore/host-config"
+   ],
+   "tran_ngang_px": 0,
+   "anh": "dien_thoai_giang_vien.png",
+   "hop_thoai_khong_thay_trang": false,
+   "dat": true
+  }
+ ]
+}
