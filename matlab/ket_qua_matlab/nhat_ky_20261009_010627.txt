@@ -1,0 +1,266 @@
+=== CHAY_TAT_CA (09-Oct-2026 01:06:27) ===
+MATLAB 25.1.0.2943329 (R2025a) | PCWIN64 | C:\Users\ACER\Downloads\[AI]DOANTOTNGHIEPTHS\hoc_lieu\matlab
+San pham co san: MATLAB 25.1
+Symbolic Math Toolbox: false (chi dung cho phan tuy chon cua vd_he_tuyen_tinh)
+
+
+################ vd_giai_tich_malthus ################
+--- VD01 doi don vi ---
+r/12 = 0.0200 (ky vong 0.0200); e^0.24 = 1.2712 (1.2712); ln 1.24 = 0.2151 (0.2151)
+--- VD04 tich luy ---
+tich phan = 1556.93 (1556.93); tong trai = 1518.33 (1518.33)
+--- VD05 xap xi tuyen tinh ---
+dt =  1.00: sai so tuong doi = 9.02040 %
+dt =  0.10: sai so tuong doi = 0.12091 %
+dt =  0.01: sai so tuong doi = 0.00125 %
+--- VD06 dan so Hoa Ky ---
+r = 0.010102 (0.010102); P(2000) = 274867059 (274867059); sai so = -2.32 % (-2.32)
+--- VD07, VD08, VD12 ---
+T_d = 34.66 nam (34.66); P(10) = 2442806 (2442806)
+k = 0.1733 (0.1733); t_1 = 17.29 gio (17.29)
+t_1500 = 36.62 nam (36.62)
+--- VD09 uoc luong r tren 5 diem dau ---
+hoi quy log: r = 0.4952 (0.4952), P0 = 10.39 (10.39), R2 = 0.9932 (0.9932)
+hai diem: r = 0.5006 (0.5006)
+--- VD10 du bao ngoai mau ---
+t =  5: du bao    123.5, quan sat  119.1, sai so     3.7 %
+t =  6: du bao    202.7, quan sat  174.6, sai so    16.1 %
+t =  8: du bao    545.8, quan sat  350.7, sai so    55.6 %
+t = 10: du bao   1469.4, quan sat  513.3, sai so   186.3 %
+--- VD11 roi rac -> lien tuc ---
+dt =  1.00: (1 + r dt)^n = 5.0625
+dt =  0.50: (1 + r dt)^n = 5.9605
+dt =  0.10: (1 + r dt)^n = 7.0400
+dt =  0.01: (1 + r dt)^n = 7.3523
+e^2 = 7.3891
+
+################ vd_logistic ################
+--- VD13 ---
+t* = 7.945 (7.945); rK/4 = 50.0 (50); t90 = 13.44 (13.44); P(5) = 117.70 (117.70)
+--- VD14 ---
+P(2) = 601.32 (601.32); t(550) = 3.543 (3.543)
+--- VD16 tuyen tinh hoa voi K = 665 ---
+r = 0.5307 (0.5307); c = -4.1636 (-4.1636); t* = 7.846 (7.846); R2 = 0.9996 (0.9996)
+--- VD17 binh phuong toi thieu phi tuyen (fminsearch) ---
+r = 0.5470 (0.5470); K = 663.02 (663.02); t* = 7.808 (7.808); RMSE = 3.20 (3.20)
+--- VD18 chia du lieu theo thoi gian ---
+t_c =  7: K =   865.97, RMSE kiem tra logistic =   142.51
+t_c =  9: K =   721.43, RMSE kiem tra logistic =    45.62
+t_c = 11: K =   656.73, RMSE kiem tra logistic =     5.98
+t_c = 13: K =   659.21, RMSE kiem tra logistic =     3.92
+(ky vong K: 865.97, 721.43, 656.73, 659.21; RMSE: 142.51, 45.62, 5.98, 3.92)
+--- VD19-VD21 khai thac ---
+H=100, P0=200: tuyet chung t = 4.304 (4.304)
+H=125, P0=400: tuyet chung t = 16.000000 (16.000000)
+H=125, P0=600: P(200) = 509.0909 (509.0909); te rong: 1
+H=150, P0=800: tuyet chung t = 18.6089 (18.6089)
+--- VD22 doi bien u = 1/P ---
+P(5) = 117.7012 (117.7012)
+
+################ vd_sir ################
+--- VD23 tham so co dinh beta = 1.407 ---
+R0 = 2.345 (2.345); Imax cong thuc = 212.2504 (212.2504); Imax su kien = 212.2504 tai t = 6.8485 (6.8485)
+S_inf = 129.0805 (129.0805); S(60) ode45 = 129.0805
+bao toan: max|S+I+R-N| = 3.41e-13
+--- VD24 R0 > 1 nhung R0*S0/N < 1 ---
+R_eff(0) = 0.938 (0.938); co dinh noi tai: 0 (0); S_inf = 359.62 (359.62)
+--- VD25 ---
+Imax = 2338.8 (2338.8); S_inf = 1072.1 (1072.1)
+--- VD27 so ca moi tuan 1 = S(0)-S(1) ---
+ca moi = 10.639 (10.639); I(1) = 11.055 (11.055); R(1) = 4.584 (4.584)
+--- VD28 nguong mien dich max(0, 1-1/R0) ---
+R0 = 2.3450: p_c = 0.5736
+R0 = 1.9969: p_c = 0.4992
+R0 = 0.9000: p_c = 0.0000
+--- VD29, VD30 can thiep ---
+giam beta 40% tu dau: Imax = 50.14 (50.14)
+can thiep tai t = 5: Imax = 150.07 (150.07) tai t = 5.00 (5.00); S(60) = 342.94 (342.94)
+--- VD31 hieu chinh beta ---
+beta Euler = 1.407035 (1.407035); beta lien tuc = 1.19816 (1.19816); R0 = 1.99693 (1.99693)
+Euler h=1 voi beta lien tuc: I1 = 7.961 (7.961)
+--- VD32 SEIR (sigma = 1/tuan) ---
+SEIR: Imax = 131.01 (131.01) tai t = 13.23 (13.23); S(80) = 129.081 (129.081)
+
+################ vd_phuong_phap_so ################
+--- VD33-VD35 y' = 1 + y, y(0) = 1, h = 0.1 ---
+    1.0000    1.0000    1.0000    1.0000    1.0000
+    1.2000    1.2100    1.2100    1.2103    1.2103
+    1.4200    1.4421    1.4421    1.4428    1.4428
+    1.6620    1.6985    1.6985    1.6997    1.6997
+
+--- VD36 bac hoi tu tren bai toan logistic ---
+Euler     sai so: [101.6 45.07 20.93 10.07] | bac: [1.17 1.11 1.06]
+Heun      sai so: [14.59 4.04 1.07 0.2762] | bac: [1.85 1.92 1.95]
+Diem giua sai so: [8.629 2.494 0.6735 0.1753] | bac: [1.79 1.89 1.94]
+RK4       sai so: [0.1488 0.01094 0.0007433 4.845e-05] | bac: [3.77 3.88 3.94]
+(ky vong bac cuoi: 1.06, 1.95, 1.94, 3.94)
+--- VD37 on dinh tuyet doi, y' = -30 y, h = 0.1 ---
+   -2.0000    2.5000    1.3750    0.2500   -0.2000
+
+Euler an: y(1.5) = 3.1044e-10 (3.1044e-10), so vong Newton toi da = 2
+--- VD38 Euler SIR buoc lon ---
+h = 0.5: min S =   108.761, min I =     0.008, max|tong-1000| = 2.3e-13
+h = 1.0: min S =    84.546, min I =     0.001, max|tong-1000| = 2.3e-13
+h = 2.0: min S =    20.399, min I =   -12.114, max|tong-1000| = 0.0e+00
+h = 3.0: min S =  -101.475, min I =   -23.276, max|tong-1000| = 2.3e-13
+--- VD39 Taylor bac hai, mot buoc h = 1 ---
+Taylor2 = 16.193 (16.193); chinh xac = 16.465 (16.465)
+--- VD40 AB2 so voi Heun ---
+h = 0.500: AB2 2.334, Heun 4.040
+h = 0.250: AB2 0.690, Heun 1.070
+h = 0.125: AB2 0.186, Heun 0.276
+(ky vong: 2.334/4.040, 0.690/1.070, 0.186/0.276)
+
+################ vd_cung_ode15s ################
+Dung sai: RelTol = 1e-6, AbsTol = 1e-9
+ode45 :  433 buoc thanh cong,    1 buoc that bai,  2605 lan tinh f; sai so tai t=10: 4.13e-08
+ode15s:  221 buoc thanh cong,    8 buoc that bai,   460 lan tinh f; sai so tai t=10: 4.78e-07
+RK4 buoc co dinh h = 0.1 (z = -3.9 nam ngoai mien on dinh) tai t = 1:
+   1.0e+06 *
+
+   -3.0998    6.1995
+
+
+################ vd_he_tuyen_tinh ################
+--- VD46 tri rieng phuc: A = [1 -5; 1 -1] ---
+alpha = -5.55e-17, beta = 2 (0, 2); phan du u1 = 4.5e-11, u2 = 4.1e-11
+|u(1.3) - expm(1.3 A) y0| = 2.2e-16
+--- VD47 chuoi Jordan: A = [3 1; -1 1], lambda = 2 (boi dai so 2, boi hinh hoc 1) ---
+v2 = [0.5 0.5]; phan du e^{2t}(t v1 + v2) = 3.4e-10; rank(A - 2I) = 1
+--- VD48 he so bat dinh: x' = [1 2; 3 2] x + t [2; -4] ---
+a = [3 -2.5] (3, -2.5); b = [-2.75 2.875] (-2.75, 2.875)
+phan du nghiem rieng = 0.0e+00
+--- VD49 bien thien hang so: x' = [-5 1; 4 -2] x + e^{2t} [6; -1] ---
+tri rieng: [-6 -1]; phan du x_p = 9.9e-11
+|expm + tich phan - x_p(1)| = 8.9e-16
+--- VD50 khu bien: x' = 3x - 2y, y' = 2x - y, (x, y)(0) = (1, 0) ---
+|(x, y)(0.8) - expm(0.8 A) y0| = 2.7e-15
+--- VD51 RK4 va Euler cho x' = x - 4y, y' = -x + y, (1, 0) ---
+K1 = [0.2 -0.2], K2 = [0.3 -0.24], K3 = [0.326 -0.254], K4 = [0.4684 -0.316]
+RK4: (1.3200666667, -0.2506666667) (1.3200666667, -0.2506666667); Euler h=0.1: (1.2500, -0.2200) (1.25, -0.22)
+dung (expm): (1.3204247767, -0.2508470118) (1.3204247767, -0.2508470118)
+--- Phan tuy chon: Symbolic Math Toolbox ---
+Khong co Symbolic Math Toolbox: BO QUA phan dsolve (khong anh huong cac kiem tra).
+
+################ vd_mo_rong ################
+--- VD41 lam nguoi Newton ---
+k = 0.06190 (0.06190); t(40 do) = 23.69 (23.69); T(30) = 35.15 (35.15)
+--- VD42 o nhiem ho ---
+Q* = 5000000 g; V/F = 50 ngay; t90 = 115.1 ngay (115.1); Q(30) = 2255942 g (2255942)
+--- VD43 ho chua ---
+W(3) = 129.59 (129.59); ra max = 12.96 (12.96); W(10) = 64.35 (64.35)
+--- VD44 dao dong, nang luong ---
+Euler: x(10) = 4.473 (4.473), E = 101.01 (101.01); RK4: x(10) = 0.4083 (0.4083), E = 1.99982 (1.99982)
+--- VD45 Lotka-Volterra, dai luong bao toan ---
+V(0) = 0.46028 (0.46028); Euler V(20) = 0.7243 (0.7243); RK4 V(20) = 0.460279 (0.460279)
+--- VD52 lieu thuoc lap lai (minh hoa toan hoc) ---
+R_5 = 0.4299 (0.4299); R = 0.4310 (0.4310); voi H = 10, L = 2: C0 = 8, T = 8.047 gio (8.047)
+--- VD53 quang duong phanh ---
+t_dung = 4.00 s (4); d = 40.00 m (40); v(5) = 0.00 (0: xe da dung, khong phai -5)
+--- VD54 hai loai canh tranh: x = (1 - y)x, y = (0.5 - 0.5x)y ---
+tri rieng tai (1,1): [0.7071 -0.7071] -> diem yen ngua
+(0.4, 0.3) -> (3.200, 0.187)
+(2.2, 0.4) -> (3.200, 0.252)
+(0.3, 2.0) -> (0.055, 3.200)
+(2.0, 2.4) -> (0.108, 3.200)
+
+################ vd_hinh ################
+Da xuat 3 hinh vao C:\Users\ACER\Downloads\[AI]DOANTOTNGHIEPTHS\hoc_lieu\matlab\ket_qua_matlab
+
+################ kiem_chung ################
+[DAT]       A dau vao        mh_luoi bao loi khi (T-t0)/h khong nguyen                    MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_rk4 bao loi khi f tra sai kich thuoc                      MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_rk4 bao loi khi nghiem khong huu han                      MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_euler bao loi khi y0 khong huu han                        MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_euler bao loi khi f tra VECTO HANG (khong de mo rong ngam thanh ma tran) MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_rk4 bao loi khi y0 la MA TRAN (khong am tham lam phang)   MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_euler bao loi khi f sinh so PHUC                          MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_luoi bao loi khi h phuc hoac Inf                          MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_sir_giai bao loi khi S0 + I0 + R_bd khac N                MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_sir_giai chap nhan R_bd dung tong (995 + 5 + 0 = N)       MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_jordan2 bao loi khi v1 = 0 (vecto rieng luon khac 0)      MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_jordan2 bao loi khi lam co du vecto rieng (A = 2I)        MATLAB = 1                ky vong = 1                
+[DAT]       A dau vao        mh_nghiem_phuc bao loi voi ma tran phuc                      MATLAB = 1                ky vong = 1                
+[DAT]       B phan du        phan du nghiem logistic tuong minh                           MATLAB = 1.238608526e-08  ky vong = 0                
+[DAT]       B phan du        tri rieng phuc: phan du u1                                   MATLAB = 4.535705145e-11  ky vong = 0                
+[DAT]       B phan du        tri rieng phuc: phan du u2                                   MATLAB = 4.114797392e-11  ky vong = 0                
+[DAT]       B phan du        chuoi Jordan: phan du e^{2t}(t v1 + v2)                      MATLAB = 3.370859147e-10  ky vong = 0                
+[DAT]       B phan du        expm so voi ode45 (he tuyen tinh, t = 1)                     MATLAB = 2.499334073e-12  ky vong = 0                
+[DAT]       C bac hoi tu     bac thuc nghiem mh_euler (h = 0.25 -> 0.125)                 MATLAB = 1.055692271      ky vong = 1                
+[DAT]       C bac hoi tu     bac thuc nghiem mh_heun (h = 0.25 -> 0.125)                  MATLAB = 1.954321965      ky vong = 2                
+[DAT]       C bac hoi tu     bac thuc nghiem mh_diem_giua (h = 0.25 -> 0.125)             MATLAB = 1.94154794       ky vong = 2                
+[DAT]       C bac hoi tu     bac thuc nghiem mh_rk4 (h = 0.25 -> 0.125)                   MATLAB = 3.939278171      ky vong = 4                
+[DAT]       D SIR            Euler h=0.5 bao toan S+I+R                                   MATLAB = 2.273736754e-13  ky vong = 0                
+[DAT]       D SIR            RK4 h=0.5 bao toan S+I+R                                     MATLAB = 2.273736754e-13  ky vong = 0                
+[DAT]       D SIR            RK4 h=0.5 khong am (min S, I > 0)                            MATLAB = 1                ky vong = 1                
+[DAT]       D SIR            Euler h=3 tren [0,30]: phat hien S am (khong cat ve 0)       MATLAB = 1                ky vong = 1                
+[DAT]       D SIR            I_max giai tich                                              MATLAB = 212.2503795      ky vong = 212.2503795      
+[DAT]       D SIR            dinh ode45 trung I_max giai tich                             MATLAB = 212.2503795      ky vong = 212.2503795      
+[DAT]       D SIR            S_inf (fzero)                                                MATLAB = 129.0805498      ky vong = 129.0805498      
+[DAT]       D SIR            S(80) cua ode45 trung S_inf                                  MATLAB = 129.0805498      ky vong = 129.0805498      
+[DAT]       D SIR            R0*S0/N <= 1 => khong co dinh noi tai                        MATLAB = 1                ky vong = 1                
+[DAT]       D SIR            I0 = 0 => S_inf = S0                                         MATLAB = 995              ky vong = 995              
+[DAT]       E bat bien       Euler: E_n = (1 + h^2 w^2)^n E_0 (h = 0.1, n = 100)          MATLAB = 101.0098964      ky vong = 101.0098964      
+[DAT]       E bat bien       RK4: troi nang luong giam ~ h^5 (ti so khi chia doi h)       MATLAB = 31.87849815      ky vong = 32               
+[DAT]       E bat bien       Lotka-Volterra: RK4 giu bat bien V (h = 0.05, T = 20)        MATLAB = 6.455346258e-09  ky vong = 0                
+[DAT]       E bat bien       Lotka-Volterra: Euler lam lech V dang ke                     MATLAB = 1                ky vong = 1                
+[DAT]       F do nhay        I_max tang theo beta (1.3 < 1.407 < 1.5)                     MATLAB = 1                ky vong = 1                
+[DAT]       F do nhay        S_inf giam theo beta                                         MATLAB = 1                ky vong = 1                
+[DAT]       F do nhay        beta lien tuc (fzero + ode45)                                MATLAB = 1.198156554      ky vong = 1.19815655       
+[DAT]       G khop du lieu   hoi quy ln(P/(665-P)): he so goc r                           MATLAB = 0.5306746627     ky vong = 0.530674663      
+[DAT]       G khop du lieu   NLS (fminsearch): K                                          MATLAB = 663.0219901      ky vong = 663.022          
+[DAT]       H khai thac      H = rK/4, P0 = 400: tuyet chung tai t = 16                   MATLAB = 16               ky vong = 16               
+[DAT]       H khai thac      H > rK/4: tuyet chung tai t = 18.60888                       MATLAB = 18.60887975      ky vong = 18.60887975      
+[DAT]       H khai thac      H < rK/4, P0 > P_-: tien ve P_+ (khong tuyet chung)          MATLAB = 1                ky vong = 1                
+[DAT]       I phuong phap an Euler an: y_15 = (1/4)^15/3                                  MATLAB = 3.104408582e-10  ky vong = 3.104408582e-10  
+[DAT]       I phuong phap an Hinh thang an: y_15 = (-0.2)^15/3                            MATLAB = -1.092266667e-11 ky vong = -1.092266667e-11 
+[DAT]       K bai toan cung  ode15s it buoc hon ode45, ca hai sai so < 1e-5               MATLAB = 1                ky vong = 1                
+[DAT]       J MATLAB-Python  logistic_euler_P10_h025                                      MATLAB = 498.9997015      ky vong = 498.9997015      
+[DAT]       J MATLAB-Python  logistic_heun_P10_h025                                       MATLAB = 518.8640831      ky vong = 518.8640831      
+[DAT]       J MATLAB-Python  logistic_diem_giua_P10_h025                                  MATLAB = 519.2610074      ky vong = 519.2610074      
+[DAT]       J MATLAB-Python  logistic_rk4_P10_h025                                        MATLAB = 519.9337436      ky vong = 519.9337436      
+[DAT]       J MATLAB-Python  logistic_chinh_xac_P10                                       MATLAB = 519.9344869      ky vong = 519.9344869      
+[DAT]       J MATLAB-Python  sir_rk4_S24_h05                                              MATLAB = 129.2586107      ky vong = 129.2586107      
+[DAT]       J MATLAB-Python  sir_rk4_maxI_h05                                             MATLAB = 211.8227704      ky vong = 211.8227704      
+[DAT]       J MATLAB-Python  sir_euler_maxI_h1                                            MATLAB = 250.6043885      ky vong = 250.6043885      
+[DAT]       J MATLAB-Python  sir_euler_minI_h2_T30                                        MATLAB = -12.11396423     ky vong = -12.11396423     
+[DAT]       J MATLAB-Python  sir_Imax_giai_tich                                           MATLAB = 212.2503795      ky vong = 212.2503795      
+[DAT]       J MATLAB-Python  sir_S_inf                                                    MATLAB = 129.0805498      ky vong = 129.0805498      
+[DAT]       J MATLAB-Python  sir_t_dinh_ode                                               MATLAB = 6.848469942      ky vong = 6.848469944      
+[DAT]       J MATLAB-Python  sir_beta_lien_tuc                                            MATLAB = 1.198156554      ky vong = 1.198156554      
+[DAT]       J MATLAB-Python  sir_beta_euler                                               MATLAB = 1.407035176      ky vong = 1.407035176      
+[DAT]       J MATLAB-Python  seir_Imax                                                    MATLAB = 131.0120515      ky vong = 131.0120515      
+[DAT]       J MATLAB-Python  he_rk4_x1                                                    MATLAB = 1.320066667      ky vong = 1.320066667      
+[DAT]       J MATLAB-Python  he_rk4_y1                                                    MATLAB = -0.2506666667    ky vong = -0.2506666667    
+[DAT]       J MATLAB-Python  he_expm_x                                                    MATLAB = 1.320424777      ky vong = 1.320424777      
+[DAT]       J MATLAB-Python  he_expm_y                                                    MATLAB = -0.2508470118    ky vong = -0.2508470118    
+[DAT]       J MATLAB-Python  hsbd_b1                                                      MATLAB = -2.75            ky vong = -2.75            
+[DAT]       J MATLAB-Python  hsbd_b2                                                      MATLAB = 2.875            ky vong = 2.875            
+[DAT]       J MATLAB-Python  nam_men_hoi_quy_r                                            MATLAB = 0.5306746627     ky vong = 0.5306746627     
+[DAT]       J MATLAB-Python  nam_men_nls_r                                                MATLAB = 0.5469947289     ky vong = 0.5469947277     
+[DAT]       J MATLAB-Python  nam_men_nls_K                                                MATLAB = 663.0219901      ky vong = 663.0219907      
+[DAT]       J MATLAB-Python  khai_thac_t_tuyet_chung                                      MATLAB = 18.60887975      ky vong = 18.60887975      
+[DAT]       J MATLAB-Python  dao_dong_euler_E10                                           MATLAB = 101.0098964      ky vong = 101.0098964      
+[DAT]       J MATLAB-Python  dao_dong_rk4_E10                                             MATLAB = 1.999823119      ky vong = 1.999823119      
+[DAT]       J MATLAB-Python  lotka_rk4_V20                                                MATLAB = 0.4602792227     ky vong = 0.4602792227     
+[DAT]       J MATLAB-Python  thuoc_R_gioi_han                                             MATLAB = 0.4310127607     ky vong = 0.4310127607     
+[DAT]       J MATLAB-Python  thuoc_T_chu_ky                                               MATLAB = 8.047189562      ky vong = 8.047189562      
+[DAT]       J MATLAB-Python  phanh_quang_duong                                            MATLAB = 40               ky vong = 40               
+
+KET QUA: 78/78 kiem tra dat. Bang chi tiet: C:\Users\ACER\Downloads\[AI]DOANTOTNGHIEPTHS\hoc_lieu\matlab\ket_qua_matlab\kiem_chung.csv
+
+=== TOM TAT ===
+             script             trang_thai      giay      thong_bao 
+    ________________________    __________    ________    __________
+
+    {'vd_giai_tich_malthus'}     {'DAT'}      0.031794    {0×0 char}
+    {'vd_logistic'         }     {'DAT'}       0.37758    {0×0 char}
+    {'vd_sir'              }     {'DAT'}       0.48435    {0×0 char}
+    {'vd_phuong_phap_so'   }     {'DAT'}      0.070497    {0×0 char}
+    {'vd_cung_ode15s'      }     {'DAT'}       0.15017    {0×0 char}
+    {'vd_he_tuyen_tinh'    }     {'DAT'}       0.15005    {0×0 char}
+    {'vd_mo_rong'          }     {'DAT'}      0.071682    {0×0 char}
+    {'vd_hinh'             }     {'DAT'}        12.514    {0×0 char}
+    {'kiem_chung'          }     {'DAT'}        2.6932    {0×0 char}
+
+Nhat ky: C:\Users\ACER\Downloads\[AI]DOANTOTNGHIEPTHS\hoc_lieu\matlab\ket_qua_matlab\nhat_ky_20261009_010627.txt

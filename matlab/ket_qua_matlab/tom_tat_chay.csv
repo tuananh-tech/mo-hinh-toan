@@ -1,0 +1,10 @@
+script,trang_thai,giay,thong_bao
+vd_giai_tich_malthus,DAT,0.0317936,
+vd_logistic,DAT,0.3775757,
+vd_sir,DAT,0.4843453,
+vd_phuong_phap_so,DAT,0.0704972,
+vd_cung_ode15s,DAT,0.1501685,
+vd_he_tuyen_tinh,DAT,0.1500499,
+vd_mo_rong,DAT,0.0716819,
+vd_hinh,DAT,12.5136567,
+kiem_chung,DAT,2.6932091,
