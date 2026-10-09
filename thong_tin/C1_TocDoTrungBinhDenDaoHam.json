@@ -1,0 +1,38 @@
+{
+ "tieu_de": "Từ tốc độ trung bình đến đạo hàm",
+ "muc_tieu": "Hiểu đạo hàm là giới hạn của tốc độ thay đổi trung bình (hệ số góc cát tuyến → tiếp tuyến).",
+ "bai_tap": [
+  "B1.3",
+  "VD02"
+ ],
+ "thoi_luong": 29.183333333333234,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 5.86666666666666,
+   "text": "Dữ liệu sinh khối nấm men theo giờ (Pearl 1927) và đường cong logistic khớp với dữ liệu."
+  },
+  {
+   "t0": 5.86666666666666,
+   "t1": 13.516666666666703,
+   "text": "Trong bốn giờ kể từ giờ thứ sáu, sinh khối tăng trung bình khoảng 83 đơn vị mỗi giờ: đó là hệ số góc của cát tuyến."
+  },
+  {
+   "t0": 13.516666666666703,
+   "t1": 19.98333333333335,
+   "text": "Thu hẹp khoảng thời gian: tốc độ trung bình thay đổi và ổn định quanh khoảng 74,4 đơn vị mỗi giờ."
+  },
+  {
+   "t0": 19.98333333333335,
+   "t1": 29.183333333333234,
+   "text": "Giới hạn đó là tốc độ tức thời — đạo hàm của mô hình, hệ số góc của tiếp tuyến. Đạo hàm tính trên mô hình, không trên các điểm đo rời rạc."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 6.8666666666666565,
+   "cau_hoi": "khi Δt nhỏ dần, hệ số góc cát tuyến tiến tới đâu?",
+   "goi_y": "Tiến tới hệ số góc tiếp tuyến tại t = 6, tức đạo hàm P'(6) ≈ 74,4 đơn vị/giờ."
+  }
+ ]
+}

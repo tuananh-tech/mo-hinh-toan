@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:04,733
+Một bước h = 2 giờ cho mô hình logistic nấm men, xuất phát từ P0 = 9,6.
+
+2
+00:00:04,733 --> 00:00:10,733
+Euler đi theo tiếp tuyến tại đầu bước.
+
+3
+00:00:10,733 --> 00:00:16,917
+Heun lấy trung bình hệ số góc ở hai đầu bước; RK4 dùng bốn hệ số góc với trọng số 1, 2, 2, 1.
+
+4
+00:00:16,917 --> 00:00:23,183
+Chính xác hơn nhưng mỗi bước tốn nhiều phép tính hơn: Euler một, Heun hai, RK4 bốn lần tính f.

@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:04,800
+Cộng đồng được chia thành ba ngăn: cảm nhiễm S, đang nhiễm I, loại ra R.
+
+2
+00:00:04,800 --> 00:00:11,983
+Mỗi mũi tên là một tốc độ chuyển ngăn, tính bằng người trên tuần; nguy cơ trên mỗi người cảm nhiễm là β·I/N.
+
+3
+00:00:11,983 --> 00:00:18,483
+Dòng ra khỏi S bằng dòng vào I; dòng ra khỏi I bằng dòng vào R. Vì vậy tổng S + I + R không đổi.
+
+4
+00:00:18,483 --> 00:00:25,417
+Với tham số cố định của tình huống giáo khoa, số người đang nhiễm đạt đỉnh khoảng 212 người ở tuần 6,85.

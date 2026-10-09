@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:06,533
+Hệ x' = −0,4x + y, y' = −x − 0,4y. Bên trái: x(t) và y(t) theo thời gian. Bên phải: mặt phẳng pha.
+
+2
+00:00:06,533 --> 00:00:13,717
+Mỗi điểm của mặt phẳng pha là một trạng thái (x, y); thời gian không hiện trên hình mà là chiều chuyển động.
+
+3
+00:00:13,717 --> 00:00:18,967
+Trị riêng phức với phần thực âm: x và y dao động tắt dần, quỹ đạo xoắn vào gốc.
+
+4
+00:00:18,967 --> 00:00:25,967
+Hệ thứ hai có trị riêng 3 và −1: điểm yên ngựa. Các đường đỏ là hai vectơ riêng.
+
+5
+00:00:25,967 --> 00:00:35,633
+Xuất phát đúng trên vectơ riêng ứng với −1, nghiệm đi thẳng vào gốc. Lệch một chút, nghiệm tiến gần gốc rồi bị đẩy ra theo vectơ riêng ứng với 3.

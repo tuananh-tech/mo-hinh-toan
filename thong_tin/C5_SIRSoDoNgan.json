@@ -1,0 +1,39 @@
+{
+ "tieu_de": "Mô hình SIR: sơ đồ ngăn",
+ "muc_tieu": "Đọc sơ đồ ngăn thành hệ phương trình; tốc độ chuyển ngăn; bảo toàn S + I + R.",
+ "bai_tap": [
+  "B3.1",
+  "B3.4",
+  "VD23"
+ ],
+ "thoi_luong": 25.416666666666703,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 4.799999999999997,
+   "text": "Cộng đồng được chia thành ba ngăn: cảm nhiễm S, đang nhiễm I, loại ra R."
+  },
+  {
+   "t0": 4.799999999999997,
+   "t1": 11.98333333333337,
+   "text": "Mỗi mũi tên là một tốc độ chuyển ngăn, tính bằng người trên tuần; nguy cơ trên mỗi người cảm nhiễm là β·I/N."
+  },
+  {
+   "t0": 11.98333333333337,
+   "t1": 18.483333333333427,
+   "text": "Dòng ra khỏi S bằng dòng vào I; dòng ra khỏi I bằng dòng vào R. Vì vậy tổng S + I + R không đổi."
+  },
+  {
+   "t0": 18.483333333333427,
+   "t1": 25.416666666666703,
+   "text": "Với tham số cố định của tình huống giáo khoa, số người đang nhiễm đạt đỉnh khoảng 212 người ở tuần 6,85."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 6.79999999999999,
+   "cau_hoi": "tổng S + I + R thay đổi thế nào theo thời gian?",
+   "goi_y": "Không đổi: dòng ra khỏi S bằng dòng vào I, dòng ra khỏi I bằng dòng vào R."
+  }
+ ]
+}

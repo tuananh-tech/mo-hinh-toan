@@ -1,0 +1,44 @@
+{
+ "tieu_de": "Malthus ngoài miền hiệu lực",
+ "muc_tieu": "Miền hiệu lực gắn với một tiêu chí sai số; khớp tốt trên dữ liệu huấn luyện chưa chắc dự báo tốt.",
+ "bai_tap": [
+  "B1.4",
+  "B1.5",
+  "VD10"
+ ],
+ "thoi_luong": 26.983333333333444,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 3.86666666666666,
+   "text": "Khớp mô hình Malthus trên năm giờ đầu của dữ liệu nấm men."
+  },
+  {
+   "t0": 3.86666666666666,
+   "t1": 10.8666666666667,
+   "text": "Với năm giờ đầu, mô hình hàm mũ rất khớp."
+  },
+  {
+   "t0": 10.8666666666667,
+   "t1": 15.583333333333515,
+   "text": "Khi dự báo xa hơn, sai số tăng có hệ thống: tài nguyên bắt đầu hạn chế."
+  },
+  {
+   "t0": 15.583333333333515,
+   "t1": 20.583333333333503,
+   "text": "Nếu chấp nhận sai số tối đa 10%, mô hình này chỉ dùng được đến giờ thứ năm."
+  },
+  {
+   "t0": 20.583333333333503,
+   "t1": 26.983333333333444,
+   "text": "Ở giờ thứ mười, dự báo gấp gần ba lần quan sát. Kết luận gắn với bộ dữ liệu và tiêu chí đã chọn."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 5.866666666666653,
+   "cau_hoi": "mô hình này dự báo tốt đến giờ thứ mấy (sai số ≤ 10%)?",
+   "goi_y": "Đến giờ thứ 5 (sai số +3,7%); từ giờ thứ 6 sai số đã +16%."
+  }
+ ]
+}

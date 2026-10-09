@@ -1,0 +1,46 @@
+{
+ "tieu_de": "Sai số và ổn định",
+ "muc_tieu": "Đọc bậc hội tụ từ độ dốc trên thang log; phân biệt độ chính xác với ổn định tuyệt đối.",
+ "bai_tap": [
+  "S.2",
+  "S.3",
+  "S.4",
+  "VD36",
+  "VD37"
+ ],
+ "thoi_luong": 34.65000000000006,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 7.19999999999999,
+   "text": "Sai số tại t = 10 của bài toán logistic khi giảm bước h, vẽ trên thang logarit."
+  },
+  {
+   "t0": 7.19999999999999,
+   "t1": 14.800000000000276,
+   "text": "Độ dốc của mỗi đường bằng bậc hội tụ: Euler khoảng 1, Heun khoảng 2, RK4 khoảng 4."
+  },
+  {
+   "t0": 14.800000000000276,
+   "t1": 20.250000000000288,
+   "text": "Nhưng độ chính xác cao không cứu được một bước quá lớn. Xét y' = −30y với h = 0,1."
+  },
+  {
+   "t0": 20.250000000000288,
+   "t1": 25.58333333333345,
+   "text": "Euler và RK4 đều bùng nổ trong khi nghiệm đúng giảm về 0; Euler ẩn vẫn suy giảm."
+  },
+  {
+   "t0": 25.58333333333345,
+   "t1": 34.65000000000006,
+   "text": "Nghiệm số chỉ suy giảm theo khi trị tuyệt đối của hệ số khuếch đại nhỏ hơn 1: ổn định tuyệt đối là một tính chất khác với bậc chính xác."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 2.199999999999997,
+   "cau_hoi": "khi h giảm một nửa, sai số RK4 giảm bao nhiêu lần?",
+   "goi_y": "Khoảng 2⁴ = 16 lần (bậc 4); độ dốc trên thang log bằng bậc."
+  }
+ ]
+}

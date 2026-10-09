@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:03,867
+Khớp mô hình Malthus trên năm giờ đầu của dữ liệu nấm men.
+
+2
+00:00:03,867 --> 00:00:10,867
+Với năm giờ đầu, mô hình hàm mũ rất khớp.
+
+3
+00:00:10,867 --> 00:00:15,583
+Khi dự báo xa hơn, sai số tăng có hệ thống: tài nguyên bắt đầu hạn chế.
+
+4
+00:00:15,583 --> 00:00:20,583
+Nếu chấp nhận sai số tối đa 10%, mô hình này chỉ dùng được đến giờ thứ năm.
+
+5
+00:00:20,583 --> 00:00:26,983
+Ở giờ thứ mười, dự báo gấp gần ba lần quan sát. Kết luận gắn với bộ dữ liệu và tiêu chí đã chọn.
