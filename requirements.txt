@@ -1,0 +1,8 @@
+# Phiên bản đã dùng để chạy và kiểm thử học liệu (Python 3.12.3, Windows 11).
+numpy==2.2.6
+scipy==1.13.1
+matplotlib==3.9.0
+pandas==2.2.2
+streamlit==1.37.0
+# Chỉ cần khi kết xuất lại video (cần thêm LaTeX và ffmpeg trong PATH):
+manim==0.19.2
