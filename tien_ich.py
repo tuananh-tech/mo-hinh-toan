@@ -20,7 +20,7 @@ import pandas as pd  # noqa: E402
 import streamlit as st  # noqa: E402
 
 THU_MUC_APP = os.path.dirname(os.path.abspath(__file__))
-THU_MUC_HOC_LIEU = os.path.dirname(THU_MUC_APP)
+THU_MUC_HOC_LIEU = THU_MUC_APP
 if THU_MUC_HOC_LIEU not in sys.path:
     sys.path.insert(0, THU_MUC_HOC_LIEU)
 
