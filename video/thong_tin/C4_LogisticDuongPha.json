@@ -1,0 +1,39 @@
+{
+ "tieu_de": "Logistic: đường pha",
+ "muc_tieu": "Đọc dấu của f(P) để biết chiều biến thiên; xác định cân bằng và tính ổn định qua f'.",
+ "bai_tap": [
+  "B2.1",
+  "B2.2",
+  "VD15"
+ ],
+ "thoi_luong": 26.233333333333416,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 8.199999999999998,
+   "text": "Đồ thị vế phải f(P) = rP(1 − P/K) với r = 1, K = 100."
+  },
+  {
+   "t0": 8.199999999999998,
+   "t1": 11.916666666666814,
+   "text": "Ở đâu f dương, quần thể tăng; ở đâu f âm, quần thể giảm."
+  },
+  {
+   "t0": 11.916666666666814,
+   "t1": 20.166666666666863,
+   "text": "Điểm 0 không ổn định vì f'(0) = r dương; điểm K ổn định tiệm cận vì f'(K) = −r âm. Mọi nghiệm xuất phát dương đều tiến về K."
+  },
+  {
+   "t0": 20.166666666666863,
+   "t1": 26.233333333333416,
+   "text": "Đỉnh của f tại P = K/2: quần thể tăng nhanh nhất khi đạt một nửa sức chứa, với tốc độ rK/4."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 3.1999999999999935,
+   "cau_hoi": "ở đâu P tăng, ở đâu P giảm?",
+   "goi_y": "P tăng khi f(P) > 0 (0 < P < K), giảm khi f(P) < 0 (P > K)."
+  }
+ ]
+}

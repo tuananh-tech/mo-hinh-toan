@@ -1,0 +1,40 @@
+{
+ "tieu_de": "Một bước: Euler, Heun, RK4",
+ "muc_tieu": "Thấy hình học của một bước giải số và chi phí (số lần tính f) của mỗi phương pháp.",
+ "bai_tap": [
+  "S.1",
+  "VD33",
+  "VD34",
+  "VD35"
+ ],
+ "thoi_luong": 23.18333333333351,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 4.733333333333327,
+   "text": "Một bước h = 2 giờ cho mô hình logistic nấm men, xuất phát từ P0 = 9,6."
+  },
+  {
+   "t0": 4.733333333333327,
+   "t1": 10.73333333333337,
+   "text": "Euler đi theo tiếp tuyến tại đầu bước."
+  },
+  {
+   "t0": 10.73333333333337,
+   "t1": 16.916666666666902,
+   "text": "Heun lấy trung bình hệ số góc ở hai đầu bước; RK4 dùng bốn hệ số góc với trọng số 1, 2, 2, 1."
+  },
+  {
+   "t0": 16.916666666666902,
+   "t1": 23.18333333333351,
+   "text": "Chính xác hơn nhưng mỗi bước tốn nhiều phép tính hơn: Euler một, Heun hai, RK4 bốn lần tính f."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 5.733333333333324,
+   "cau_hoi": "điểm Euler nằm trên hay dưới nghiệm đúng? Vì sao?",
+   "goi_y": "Dưới: nghiệm đang cong lên (lõm lên) nên tiếp tuyến ở đầu bước nằm dưới đường cong."
+  }
+ ]
+}

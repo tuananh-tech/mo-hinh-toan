@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:08,200
+Đồ thị vế phải f(P) = rP(1 − P/K) với r = 1, K = 100.
+
+2
+00:00:08,200 --> 00:00:11,917
+Ở đâu f dương, quần thể tăng; ở đâu f âm, quần thể giảm.
+
+3
+00:00:11,917 --> 00:00:20,167
+Điểm 0 không ổn định vì f'(0) = r dương; điểm K ổn định tiệm cận vì f'(K) = −r âm. Mọi nghiệm xuất phát dương đều tiến về K.
+
+4
+00:00:20,167 --> 00:00:26,233
+Đỉnh của f tại P = K/2: quần thể tăng nhanh nhất khi đạt một nửa sức chứa, với tốc độ rK/4.

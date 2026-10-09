@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:07,200
+Sai số tại t = 10 của bài toán logistic khi giảm bước h, vẽ trên thang logarit.
+
+2
+00:00:07,200 --> 00:00:14,800
+Độ dốc của mỗi đường bằng bậc hội tụ: Euler khoảng 1, Heun khoảng 2, RK4 khoảng 4.
+
+3
+00:00:14,800 --> 00:00:20,250
+Nhưng độ chính xác cao không cứu được một bước quá lớn. Xét y' = −30y với h = 0,1.
+
+4
+00:00:20,250 --> 00:00:25,583
+Euler và RK4 đều bùng nổ trong khi nghiệm đúng giảm về 0; Euler ẩn vẫn suy giảm.
+
+5
+00:00:25,583 --> 00:00:34,650
+Nghiệm số chỉ suy giảm theo khi trị tuyệt đối của hệ số khuếch đại nhỏ hơn 1: ổn định tuyệt đối là một tính chất khác với bậc chính xác.

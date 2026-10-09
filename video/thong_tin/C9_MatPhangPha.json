@@ -1,0 +1,44 @@
+{
+ "tieu_de": "Mặt phẳng pha của hệ tuyến tính",
+ "muc_tieu": "Liên hệ quỹ đạo trong mặt phẳng pha với đồ thị x(t), y(t); đọc vai trò của vectơ riêng ở điểm yên ngựa.",
+ "bai_tap": [
+  "B4.1",
+  "B4.2",
+  "VD46"
+ ],
+ "thoi_luong": 35.633333333333056,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 6.533333333333327,
+   "text": "Hệ x' = −0,4x + y, y' = −x − 0,4y. Bên trái: x(t) và y(t) theo thời gian. Bên phải: mặt phẳng pha."
+  },
+  {
+   "t0": 6.533333333333327,
+   "t1": 13.71666666666688,
+   "text": "Mỗi điểm của mặt phẳng pha là một trạng thái (x, y); thời gian không hiện trên hình mà là chiều chuyển động."
+  },
+  {
+   "t0": 13.71666666666688,
+   "t1": 18.96666666666693,
+   "text": "Trị riêng phức với phần thực âm: x và y dao động tắt dần, quỹ đạo xoắn vào gốc."
+  },
+  {
+   "t0": 18.96666666666693,
+   "t1": 25.966666666666704,
+   "text": "Hệ thứ hai có trị riêng 3 và −1: điểm yên ngựa. Các đường đỏ là hai vectơ riêng."
+  },
+  {
+   "t0": 25.966666666666704,
+   "t1": 35.633333333333056,
+   "text": "Xuất phát đúng trên vectơ riêng ứng với −1, nghiệm đi thẳng vào gốc. Lệch một chút, nghiệm tiến gần gốc rồi bị đẩy ra theo vectơ riêng ứng với 3."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 20.966666666666818,
+   "cau_hoi": "bắt đầu đúng trên vectơ riêng (1; −1) thì quỹ đạo đi đâu?",
+   "goi_y": "Đi thẳng vào gốc dọc theo vectơ riêng ứng với λ = −1 (đa tạp ổn định)."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:05,867
+Dữ liệu sinh khối nấm men theo giờ (Pearl 1927) và đường cong logistic khớp với dữ liệu.
+
+2
+00:00:05,867 --> 00:00:13,517
+Trong bốn giờ kể từ giờ thứ sáu, sinh khối tăng trung bình khoảng 83 đơn vị mỗi giờ: đó là hệ số góc của cát tuyến.
+
+3
+00:00:13,517 --> 00:00:19,983
+Thu hẹp khoảng thời gian: tốc độ trung bình thay đổi và ổn định quanh khoảng 74,4 đơn vị mỗi giờ.
+
+4
+00:00:19,983 --> 00:00:29,183
+Giới hạn đó là tốc độ tức thời — đạo hàm của mô hình, hệ số góc của tiếp tuyến. Đạo hàm tính trên mô hình, không trên các điểm đo rời rạc.

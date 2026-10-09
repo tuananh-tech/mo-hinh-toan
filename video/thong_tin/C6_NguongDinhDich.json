@@ -1,0 +1,44 @@
+{
+ "tieu_de": "Ngưỡng dịch: R_eff = R0·S/N",
+ "muc_tieu": "Điều kiện tăng ban đầu là R0·S(0)/N > 1, không chỉ R0 > 1; đỉnh dịch tại S = N/R0.",
+ "bai_tap": [
+  "B3.2",
+  "B3.3",
+  "VD24"
+ ],
+ "thoi_luong": 28.666666666666835,
+ "loi_thuyet_minh": [
+  {
+   "t0": 0.0,
+   "t1": 3.4666666666666637,
+   "text": "Mặt phẳng pha (S, I) của mô hình SIR với R0 = 2,345."
+  },
+  {
+   "t0": 3.4666666666666637,
+   "t1": 9.466666666666708,
+   "text": "Đường đứt nét S = N/R0: bên phải đường này, mỗi người bệnh lây cho hơn một người."
+  },
+  {
+   "t0": 9.466666666666708,
+   "t1": 15.466666666667006,
+   "text": "Bắt đầu với 995 người cảm nhiễm: I tăng, đạt đỉnh đúng khi quỹ đạo cắt đường S = N/R0."
+  },
+  {
+   "t0": 15.466666666667006,
+   "t1": 21.13333333333356,
+   "text": "Bắt đầu với 400 người cảm nhiễm: R_eff ban đầu bằng 0,94, nhỏ hơn 1, nên I giảm ngay."
+  },
+  {
+   "t0": 21.13333333333356,
+   "t1": 28.666666666666835,
+   "text": "Cùng một bệnh, cùng R0, nhưng kết cục phụ thuộc số người còn cảm nhiễm. Dịch kết thúc khi vẫn còn người chưa mắc."
+  }
+ ],
+ "cau_hoi_dung": [
+  {
+   "t": 4.466666666666661,
+   "cau_hoi": "bắt đầu với S(0) < N/R0 thì I tăng hay giảm?",
+   "goi_y": "Giảm ngay: R_eff(0) = R0·S(0)/N < 1, dù R0 > 1 (VD24)."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:05,067
+Một quần thể P(t): số cá thể sinh ra là dòng vào, số cá thể chết là dòng ra.
+
+2
+00:00:05,067 --> 00:00:12,067
+Trong khoảng thời gian ngắn Δt, số sinh tỉ lệ với quy mô quần thể và với độ dài Δt; số tử cũng vậy.
+
+3
+00:00:12,067 --> 00:00:18,450
+Hiệu của chúng là lượng thay đổi. Chia cho Δt và cho Δt tiến về 0, ta được phương trình vi phân.
+
+4
+00:00:18,450 --> 00:00:24,583
+Kiểm tra đơn vị: r có đơn vị một trên thời gian, rP có đơn vị cá thể trên thời gian, như P'.
+
+5
+00:00:24,583 --> 00:00:31,050
+Mô hình đúng trong phạm vi các giả thiết: b, d không đổi, không di cư, tài nguyên không giới hạn.
