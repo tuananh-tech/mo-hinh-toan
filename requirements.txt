@@ -4,5 +4,3 @@ scipy==1.13.1
 matplotlib==3.9.0
 pandas==2.2.2
 streamlit==1.37.0
-# Chỉ cần khi kết xuất lại video (cần thêm LaTeX và ffmpeg trong PATH):
-manim==0.19.2
