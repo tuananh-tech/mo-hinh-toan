@@ -122,7 +122,7 @@ def so_lieu_vi_du() -> dict:
 
 @st.cache_data
 def thong_tin_video() -> dict:
-    s = doc_tep("manim", "video", "thong_tin_video.json")
+    s = doc_tep("video", "thong_tin_video.json")
     return json.loads(s) if s else {}
 
 
@@ -130,8 +130,8 @@ def hien_video(ma: str):
     """Video + phụ đề (.srt, nếu có) + bản chép lời + câu hỏi dừng (mốc thời gian lấy khi kết xuất)."""
     tt = thong_tin_video().get(ma, {})
     st.markdown(f"**{ma[:3].rstrip('_')}. {tt.get('tieu_de', ma)}**")
-    tep = os.path.join(THU_MUC_HOC_LIEU, "manim", "video", f"{ma}.mp4")
-    srt = os.path.join(THU_MUC_HOC_LIEU, "manim", "video", f"{ma}.vi.srt")
+    tep = os.path.join(THU_MUC_HOC_LIEU, "video", f"{ma}.mp4")
+    srt = os.path.join(THU_MUC_HOC_LIEU, "video", f"{ma}.vi.srt")
     if os.path.exists(tep):
         st.video(tep, subtitles={"Tiếng Việt": srt} if os.path.exists(srt) else None)
     else:
