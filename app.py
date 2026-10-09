@@ -28,4 +28,19 @@ trang = {
         st.Page("trang/giang_vien.py", title="Giảng viên và kiểm chứng", icon="🧑‍🏫"),
     ],
 }
+
+from pathlib import Path
+
+tep_phieu = Path(__file__).resolve().parent / "phieu_hoc_tap.pdf"
+
+if tep_phieu.is_file():
+    st.sidebar.download_button(
+        label="📄 Tải phiếu học tập (PDF)",
+        data=tep_phieu.read_bytes(),
+        file_name="phieu_hoc_tap.pdf",
+        mime="application/pdf",
+        key="tai_phieu_hoc_tap_sidebar",
+    )
+else:
+    st.sidebar.warning("Không tìm thấy phieu_hoc_tap.pdf")
 st.navigation(trang).run()
