@@ -24,6 +24,10 @@ THU_MUC_HOC_LIEU = os.path.dirname(THU_MUC_APP)
 if THU_MUC_HOC_LIEU not in sys.path:
     sys.path.insert(0, THU_MUC_HOC_LIEU)
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from mhtoan import analysis, data, he_tuyen_tinh, models, solvers  # noqa: E402,F401
 
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10, "axes.grid": True,
